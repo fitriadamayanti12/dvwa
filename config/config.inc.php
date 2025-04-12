@@ -18,7 +18,7 @@ $_DVWA = array();
 $_DVWA[ 'db_server' ]   = getenv('DB_SERVER') ?: 'mysql://root:KqeieXeOpDBFeNByFzjdHKyVnsboWHvO@trolley.proxy.rlwy.net:16496/railway';
 $_DVWA[ 'db_database' ] = getenv('DB_DATABASE') ?: 'railway';
 $_DVWA[ 'db_user' ]     = getenv('DB_USER') ?: 'root';
-$_DVWA[ 'db_password' ] = getenv('DB_PASSWORD') ?: 'KqeieXeOpDBFeNByFzjdHKyVnsboWHvO;
+$_DVWA[ 'db_password' ] = getenv('DB_PASSWORD') ?: 'KqeieXeOpDBFeNByFzjdHKyVnsboWHvO';
 $_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '3306';
 
 # ReCAPTCHA settings
